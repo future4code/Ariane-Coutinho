@@ -1,0 +1,231 @@
+/* RESET */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li, a, button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+body {
+    background-color: #ddd;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background: #070707;
+    width: 100%;
+    /* especifica a ordem-z de um elemento e de seus herdeiros. Quando os elementos sobrepõem, a z-ordem determina qual elemento cobre o outro */
+    z-index: 12;
+    position: fixed;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+    line-height: 100px;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    letter-spacing: 5px;
+}
+
+nav {
+    float: right;
+    line-height: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: 'Poppins midium', sans-serif;
+    letter-spacing: 3px;
+    /* espaço entre as letras */
+    font-size: 15px;
+    margin: 0 10px;
+    color: #ffffff;
+  }
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #666866;
+}
+
+.nav-links li a {
+    color: #edf0f1;
+}
+
+button {
+    margin-right: 5%;
+    padding: 8px 15px;
+    background-color: #a3aaac;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: #666869;
+}
+
+.galaxia {
+    width: 100%;
+    height: 400px;
+    position: fixed;
+    top: 100px;
+    background-image: url(/image/background.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+.galaxia h2 {
+    padding-top: 8%;
+    font-size: 70px;
+    font-family: poppins;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.galaxia h4 {
+    padding-top: 1%;
+    font-size: 18px;
+    font-family: poppins;
+    text-transform: lowercase;
+    color: #fff;
+}
+
+.galaxia img {
+    width: 100%;
+    height: 400px;
+    position: fixed;
+    top: 100px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+#formulario {
+    width: 100%;
+    position: relative;
+    top: 150px;
+    background: #ddd;
+    height: 450px;
+}
+
+.campo_nome {
+    font-size: 18px;
+    margin: 5;
+}
+
+.campo_email{
+    font-size: 18px;
+    margin: 5;
+}
+
+.msg {
+    font-size: 18px;
+    margin: 5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn_submit {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 4px;
+    /* espaço entre as letras */
+    font-size: 17px;
+    margin: 5 10px;
+    color: #ffffff;
+    margin-right: 3%;
+    padding: 5px 15px;
+    background-color: #a3aaac;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.btn_submit:hover {
+    background-color: #666869;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #c5c5c5;
+    padding: 20px 0;
+}
+
+.footer-social {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.footer-social ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+#gmail-button {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+    border-radius: 100%;
+  }
+  
+  #in-button {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+    border-radius: 100%;
+  }
+  
+  #ghub-button {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: 0 px;
+    border-radius: 100%;
+  }
