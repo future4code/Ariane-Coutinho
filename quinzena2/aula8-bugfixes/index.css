@@ -68,7 +68,18 @@ div img {
 
 .icone {
     height: 15px;
+    background: url(#);
 }
+
+.icone:hover {
+    background-color: rgba(105, 105, 105, 0.2);
+    cursor: pointer;
+}
+
+.icone:active{
+    background-color: transparent;
+}
+
 
 /** 
   *
@@ -136,11 +147,6 @@ td button {
 .container-do-search img {
     height: 30px;
     width: 30px;
-}
-
-.container-do-search img:hover {
-    background-color: rgba(105, 105, 105, 0.2);
-    cursor: pointer;
 }
 
 .compra table {
